@@ -1,0 +1,2 @@
+RewriteEngine on 
+RewriteRule ^blog/(.*)$ http://blog.swendl.com/$1 [R=301,L]
