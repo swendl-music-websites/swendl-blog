@@ -2,6 +2,7 @@
 
 //====== ALL NEW POST ARE HERE ====\\
 var POSTS_PATHS = [
+    '/blog/post/swendl-journey-2024-music-studies-ai-miami.html',
     '/blog/post/dj-swendl-stuck-in-your-space-skyrockets-to-30k-spotify-streams.html',
     '/blog/post/drive-with-me-a-symphony-of-change.html'
 
