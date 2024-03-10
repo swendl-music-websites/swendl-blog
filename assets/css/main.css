@@ -356,7 +356,7 @@ a {
 	width: 100%;
 }
 
-.entry-content p {
+.entry-content p   {
 	font-size: 1.1rem;
 	font-weight: 300;
 	line-height: 1.9;
@@ -364,7 +364,17 @@ a {
 	width: 51%;
 }
 
-.entry-content .post-img {
+.text-center-for-blog {
+  text-align: center;
+  margin-top: 20px; /* Adjusts space above the element */
+  margin-bottom: 20px; /* Adjusts space below the element */
+  padding: 10px; /* Adds space inside the element, making the content look bigger */
+  font-size: 1.5em; /* Increases the font size */
+}
+
+
+
+.entry-content .post-img  {
 	height: 500px;
 	margin: 68px auto;
 	width: 74%;
@@ -1019,13 +1029,51 @@ button.entry-category {
     z-index: 2; /* Ensure it’s above the particles */
     background: #ffffff; /* Or any other background color */
 }
-
-
-
-
-
-
-
+.text-center-for-blog {
+	text-align: center;
+	margin-top: 20px; /* Adjusts space above the element */
+	margin-bottom: 20px; /* Adjusts space below the element */
+	padding: 10px; /* Adds space inside the element, making the content look bigger */
+	font-size: 1.5em; /* Increases the font size */
+  }
+  
+  .code-box {
+	background-color: #f5f5f5; /* Light grey background */
+	border-left: 5px solid #f79d00; /* Colored border on the left for accent */
+	font-family: 'Courier New', Courier, monospace; /* Monospace font for code */
+	overflow-x: auto; /* Adds a horizontal scrollbar if the code is too wide */
+	white-space: pre; /* CSS property to handle pre-formatted text */
+	margin: 0; /* Resets any default margin */
+	padding: 5px; /* Uniform padding inside the box */
+	box-sizing: border-box; /* Content-box size includes padding and border */
+  }
+  
+  .code-box pre {
+	box-sizing: border-box; /* Ensures padding does not add to the width */
+	margin: 0; /* Aligns text properly within the box */
+	padding: 0 15px; /* Uniform padding on left and right */
+	overflow-x: auto; /* Ensures any horizontal overflow is handled */
+  }
+  
+  .code-box code {
+	color: #333; /* Dark grey color for the code */
+	white-space: pre-wrap; /* Ensures that the code doesn't overflow the box */
+	display: block; /* Ensures the code element behaves as a block */
+	padding: 0; /* Remove padding from the code element if needed */
+  }
+  
+  @media screen and (max-width: 768px) {
+	.code-box {
+	  padding: 15px 10px; /* Smaller padding for smaller screens */
+	}
+  }
+  
+  @media screen and (max-width: 480px) {
+	.code-box {
+	  padding: 15px 5px; /* Even smaller padding for mobile screens */
+	}
+  }
+  
 
 
 
